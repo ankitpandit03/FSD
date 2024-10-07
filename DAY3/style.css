@@ -4,23 +4,23 @@
 
 }
 table{
-    background-color: aqua;
+    background-color:cornsilk;
     border-width: 5px;
     border-style: groove ;
     width:100%;
     border-radius: 12px;
 }
 #heading{
-    background-color: chartreuse;
+    background-color:cornsilk;
     text-align: center;
     font-size: 60px;
     color:black;
 }
 #row1{
-    background-color: greenyellow;
+    background-color:bisque;
     text-align: center;
 }
 #row2{
-    background-color: black;
+    background-color:antiquewhite;
     text-align: center;
 }
