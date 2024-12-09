@@ -8,12 +8,13 @@ import { useState } from "react";
 const App = () => {
   const [data, setData] = useState();
   return (
-    <div>
+    <div>{
+      JSON.stringify(data)}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainLayout />}>
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login regLogin={data} />} />
+            <Route path="/register" element={<Register regData={setData} />} />
           </Route>
           <Route path="/dashboard" element={<DashBorad />} />
         </Routes>
